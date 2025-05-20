@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Oleo+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* FONTS */
+  --font-open-sans: "Open Sans", sans-serif;
+  --font-dm-serif: "DM Serif Text", serif;
+  --font-oleo-script: "Oleo Script", system-ui;
+  --font-optima: "Optima";
+
+  /* COLORS */
+  --color-salem: #057439;
+  --color-pantone-green: #009a49;
+  --color-gray-800: #333333;
+  --color-gray-900: #111827;
+  --color-white: #ffffff;
+  --color-buttercream: #fcf6dc;
+  --color-codar: #0e754c;
+
+  /* TEXT */
+  --text-3l: 32px;
+  --text-3xxl: 34px;
+  --text-5xxl: 56px;
+}
+
+@font-face {
+  font-family: "Optima";
+  src: url("/fonts/optima/OPTIMA.TTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

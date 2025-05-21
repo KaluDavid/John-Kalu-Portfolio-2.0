@@ -102,12 +102,14 @@ export default function Header() {
           <ul className="flex flex-col *:text-nowrap  items-center sm:items-start gap-6  *:text-xl *:font-normal w-full ">
             <NavLink
               to="/"
+              onClick={toggleMenu}
               className={({ isActive }) => (isActive ? "text-salem" : "")}
             >
               <li>Home</li>
             </NavLink>
             <NavLink
               to="/about"
+              onClick={toggleMenu}
               className={({ isActive }) => (isActive ? "text-salem" : "")}
             >
               <li>About</li>

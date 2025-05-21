@@ -1,6 +1,6 @@
 # 🌐 John Kalu — Professional Portfolio Website
 
-This is a responsive personal portfolio website developed for [**John Kalu**](https://john-kalu.vercel.app/), a professional Product Designer to showcase his creative work, design process, and personal brand. The project was designed and built to reflect his values, highlight his expertise, and showcase his professional work.
+This is a responsive personal portfolio website developed for [**John Kalu**](https://www.linkedin.com/in/john-kalu-962357230), a professional Product Designer to showcase his creative work, design process, and personal brand. The project was designed and built to reflect his values, highlight his expertise, and showcase his professional work.
 
 ---
 

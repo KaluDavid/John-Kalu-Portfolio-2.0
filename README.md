@@ -10,6 +10,7 @@ This is a responsive personal portfolio website developed for [**John Kalu**](ht
 Frontend Developer | UI Specialist
 📧 mrkaludavid@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/kalu-david-a2771723a/)
+
 **Stack Used:**
 - ⚛️ React
 - 🔠 TypeScript  

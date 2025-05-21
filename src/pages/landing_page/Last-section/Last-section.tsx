@@ -6,7 +6,7 @@ import useRedirect from "../../../hooks/use-redirect";
 
 export function Last_section() {
   const redirect = useRedirect({
-    redirectLink: "https://codar.tech/",
+    redirectLink: "https://www.codarhq.com/",
   });
   return (
     <div className=" flex flex-col items-start justify-center gap-10 sm:px-12.5 px-5 xl:px-20 w-full">

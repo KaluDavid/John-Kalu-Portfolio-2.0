@@ -1,54 +1,60 @@
-# React + TypeScript + Vite
+# 🌐 John Kalu — Professional Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive personal portfolio website developed for [**John Kalu**](https://www.linkedin.com/in/john-kalu-962357230), a professional Product Designer to showcase his creative work, design process, and personal brand. The project was designed and built to reflect his values, highlight his expertise, and showcase his professional work.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Built By
 
-## Expanding the ESLint configuration
+**Developer:** thedavidKalu  
+Frontend Developer | UI Specialist
+📧 mrkaludavid@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/kalu-david-a2771723a/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**Stack Used:**
+- ⚛️ React
+- 🔠 TypeScript  
+- 🎨 Tailwind CSS 
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🎯 Project Overview
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+The goal was to create a **visually engaging, fast, and mobile-friendly** personal website that would represent the client's brand and professionalism.  
+Key priorities during development:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Responsive design across all devices
+- Clean and intuitive layout
+- Professional branding using the client's identity colors: **#057439** (deep green) & white
+- Smooth navigation and clear project presentation
+
+---
+
+## 🌍 Pages Included
+
+- 🏠 **Landing Page** – Introduction and call to action  
+- 👤 **About Page** – Detailed bio and brand story  
+- 📂 **Project Pages** – Highlighting 3 key project Pages 
+
+---
+
+## 🖥️ Desktop Screenshots
+![4](https://github.com/user-attachments/assets/b2b0fc4c-03d3-438d-b6d5-a635989f55a9)
+
+---
+
+## 📱 Mobile Screenshots
+
+### 🏠 Landing Page and 👤 About Page 
+![home-about](https://github.com/user-attachments/assets/175938e4-66ed-4a86-b1da-5ac3929abd7d)
+
+
+### 💼 Project 1  - 3
+![pg1-3](https://github.com/user-attachments/assets/6c39ef37-b090-474b-88b2-7c2f94dcb3c8)
+
+---
+
+### LIVE LINK - [Click Me](https://john-kalu.vercel.app/)
+#### 📜 License
+This project is not open source.
+All rights reserved to John Kalu.

@@ -10,6 +10,7 @@ export default function Live_Project_Temp({
   style,
   children,
   to,
+  roleStyle,
 }: {
   img: string;
   role: string;
@@ -17,12 +18,13 @@ export default function Live_Project_Temp({
   style?: string;
   children?: ReactNode;
   to?: string;
+  roleStyle?: string;
 }) {
   return (
     <div className=" flex flex-col items-center justify-center gap-6">
       <Link to={to}>
         <fieldset
-          className={`flex items-center justify-center bg-buttercream rounded-2xl p-12 ${style}`}
+          className={`flex items-center justify-center bg-buttercream rounded-2xl px-8 py-5 sm:p-12 ${style}`}
         >
           <img src={img} alt={img} className="max-w-full" />
 
@@ -30,11 +32,11 @@ export default function Live_Project_Temp({
         </fieldset>
       </Link>
 
-      <div className=" flex items-start justify-between gap-[200px] ">
-        <Optima text={text} style=" text-3xxl" />
-        <Roles>
-          <span>{role}</span>
+      <div className=" flex items-start justify-between lg:gap-[200px] gap-20.5  ">
+        <Optima text={text} style=" sm:text-xl text-xx lg:text-3xxl" />
+        <Roles styles={`max-sm:text-xxs  max-sm:gap-3 ${roleStyle}`}>
           <span className="rounded-full bg-gray-800 size-2.5"></span>
+          <span>{role}</span>
         </Roles>
       </div>
     </div>

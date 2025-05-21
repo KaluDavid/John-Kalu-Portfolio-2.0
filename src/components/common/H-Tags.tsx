@@ -13,13 +13,13 @@ export function H_Tags({
     <>
       {children ? (
         <h1
-          className={`text-5xxl font-dm-serif font-normal text-gray-800 ${style}`}
+          className={`md:text-5xxl sm-xl:text-[38px] text-3l font-dm-serif font-normal text-gray-800 ${style}`}
         >
           {children}
         </h1>
       ) : (
         <h1
-          className={`text-5xxl font-dm-serif font-normal text-gray-800 ${style}`}
+          className={`md:text-5xxl sm-xl:text-[38px] text-3l font-dm-serif font-normal text-gray-800 ${style}`}
         >
           {text}
         </h1>

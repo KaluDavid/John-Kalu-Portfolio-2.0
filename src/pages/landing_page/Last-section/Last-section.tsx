@@ -6,7 +6,7 @@ import { Optima } from "../../../components/common/Optima";
 
 export function Last_section() {
   return (
-    <div className=" flex flex-col items-start justify-center gap-10 px-20 w-full">
+    <div className=" flex flex-col items-start justify-center gap-10 sm:px-12.5 px-5 xl:px-20 w-full">
       <H_Tags>
         My design Journey so far. <br /> Walk with me
       </H_Tags>
@@ -18,12 +18,12 @@ export function Last_section() {
           text2="4+ years of working with Dynamic Teams and as a Freelancer to transform ideas into great Products"
         />
         <Hr />
-        <div className="w-full flex items-start justify-between ">
+        <div className="w-full flex items-start justify-between gap-8 ">
           <Optima
             text="75+ Mentees across Africa"
-            style="text-xl leading-12 text-nowrap"
+            style="text-xl md:leading-12 lg:text-nowrap"
           />
-          <p className="text-3xl leading-12 font-optima font-bold  w-[604px]">
+          <p className="md:text-3xl sm:text-2xl w-[240px] md:leading-12 font-optima font-bold md:w-[500px]  xl:w-[604px]">
             Overtime i have been able to mentor both Newbies and already
             experienced designers. I achieved this in {""}
             <span className="text-codar">Codar Tech.</span>

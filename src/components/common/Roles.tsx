@@ -9,7 +9,7 @@ function Roles({
 }) {
   return (
     <div
-      className={`flex text-nowrap items-center justify-center  gap-5 font-open-sans text-gray-900 ${styles} `}
+      className={`flex text-nowrap items-center justify-center gap-5 font-open-sans text-gray-900 ${styles} `}
     >
       {children}
     </div>

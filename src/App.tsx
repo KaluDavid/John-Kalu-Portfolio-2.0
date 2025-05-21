@@ -2,6 +2,7 @@ import React from "react";
 import { Suspense } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Lazy from "./utils/Lazy";
+import Spinner from "./components/ui/Spinner";
 function App() {
   const router = createBrowserRouter([
     {
@@ -33,7 +34,7 @@ function App() {
   ]);
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<Spinner />}>
       <RouterProvider router={router} />
     </Suspense>
   );

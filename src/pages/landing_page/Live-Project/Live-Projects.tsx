@@ -9,7 +9,7 @@ import siuIOS from "/images/siuIOS.png";
 export default function Live_Projects() {
   return (
     <>
-      <section className="flex items-start justify-start px-20 py-20 flex-col gap-20">
+      <section className="flex items-start justify-start xl:px-20 sm:px-12.5 px-5 py-20 flex-col gap-20">
         <Live text="Live Projects" />
 
         <Live_Project_Temp
@@ -19,6 +19,7 @@ export default function Live_Projects() {
           text="Redesigned the company website, leading to a 5% increase in visibility and revenue"
         />
         <Live_Project_Temp
+          style="bg-lemon"
           to="/project_2"
           img={eco_canada}
           role="Web Design"
@@ -26,9 +27,10 @@ export default function Live_Projects() {
         />
         <Live_Project_Temp
           to="/project_3"
-          style="relative px-25"
+          style="relative lg:!pr-40 bg-lime"
           img={siucash}
           role="Web Design, Mobile app Design"
+          roleStyle="text-wrap items-center justify-center"
           text="Designed a Simplify digital Fin Tech payments platform for both IOS and Android."
         >
           <img

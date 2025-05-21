@@ -14,13 +14,16 @@ export default function Last_section_Flex({
 }) {
   return (
     <div className=" flex items-start justify-between w-full  ">
-      <Optima text={text1} style="text-nowrap text-xl" />
+      <Optima text={text1} style="lg:text-nowrap gap-8 text-xl" />
       {children ? (
-        <div className="font-optima w-[604px]  font-bold flex items-center text-xl *:flex *:flex-col *:gap-4 *:list-disc">
+        <div className="font-optima md:*:w-[500px] xl:w-[604px] w-[240px] font-bold flex items-center text-xl *:flex *:flex-col *:gap-4 *:list-disc">
           {children}
         </div>
       ) : (
-        <Optima text={text2} style={`text-3xl w-[604px] leading-12 ${style}`} />
+        <Optima
+          text={text2}
+          style={`md:text-3xl w-[240px] sm:text-2xl  md:w-[500px] xl:w-[604px]   md:leading-12 ${style}`}
+        />
       )}
     </div>
   );

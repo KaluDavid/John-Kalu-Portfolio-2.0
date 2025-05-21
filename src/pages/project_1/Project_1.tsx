@@ -2,17 +2,16 @@ import React from "react";
 import Live_Project_Temp from "../../components/common/Live-Project-Temp";
 import viscio from "/images/viscio.png";
 import { H_Tags } from "../../components/common/H-Tags";
-import { Optima } from "../../components/common/Optima";
 import { Hr } from "../../components/common/Hr";
 import { Project_about } from "../../components/ui/Project_about";
 import Last_section_Flex from "../../components/common/Last-section-Flex";
 
 function Project_1() {
   return (
-    <section className="flex px-20 flex-col items-start gap-30 pt-40  size-full ">
+    <section className="flex xl:px-20 sm:px-12.5 px-5 flex-col items-start gap-30 md:pt-40 pt-30  size-full ">
       <div className="flex items-center flex-col  gap-20">
         <H_Tags
-          style="w-[80%] text-center"
+          style="xl:w-[80%] sm:text-center"
           text="We make Farm2Market Agro-Logistics Efficient, Predictable and Affordable"
         />
 
@@ -23,7 +22,11 @@ function Project_1() {
         />
       </div>
 
-      <Project_about>
+      <Project_about
+        heading1="Viscio Logistics"
+        heading2="Maximizing Efficiency in Agro-Logistics"
+        redirectApp="https://www.viscio.com.ng/"
+      >
         <Last_section_Flex
           text1="About Viscio:"
           text2="We make back-loading logistics profitable for agro-logistics providers and enable farmers/food aggregators move their produce from farm to market affordably & predictably.The African logistics scene is riddled with infrastructure gaps, high operating costs and overly fragmented activities."

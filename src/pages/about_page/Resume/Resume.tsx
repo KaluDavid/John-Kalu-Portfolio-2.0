@@ -5,7 +5,7 @@ import { Hr } from "../../../components/common/Hr";
 
 export function Resume() {
   return (
-    <div className="flex flex-col items-center justify-center gap-40 w-full">
+    <div className="flex flex-col items-start lg:items-center justify-center gap-20 w-full">
       <Resume_list
         live="My Career Journey"
         optima1="Codar Tech Africa, 2025"

@@ -21,10 +21,10 @@ function Project_3() {
         />
         <Live_Project_Temp
           to="/project_3"
-          style="relative px-25 bg-lime"
+          style="relative lg:!pr-40 bg-lime"
           img={siucash}
-          roleStyle="max-sm:text-wrap"
           role="Web Design, Mobile app Design"
+          roleStyle="text-wrap items-center justify-center"
           text="Designed a Simplify digital Fin Tech payments platform for both IOS and Android."
         >
           <img

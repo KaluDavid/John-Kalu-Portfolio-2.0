@@ -7,7 +7,8 @@ export function Last_section() {
   return (
     <div className=" flex flex-col items-start justify-center gap-10 sm:px-12.5 px-5 xl:px-20 w-full">
       <H_Tags>
-        My design Journey so far. <br /> Walk with me
+        My design Journey so far. <br className="sm:block hidden" /> Walk with
+        me
       </H_Tags>
 
       <div className="flex flex-col items-center justify-center gap-14 w-full ">

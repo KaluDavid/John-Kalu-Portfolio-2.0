@@ -2,8 +2,12 @@ import { H_Tags } from "../../../components/common/H-Tags";
 import { Hr } from "../../../components/common/Hr";
 import Last_section_Flex from "../../../components/common/Last-section-Flex";
 import { Optima } from "../../../components/common/Optima";
+import useRedirect from "../../../hooks/use-redirect";
 
 export function Last_section() {
+  const redirect = useRedirect({
+    redirectLink: "https://codar.tech/",
+  });
   return (
     <div className=" flex flex-col items-start justify-center gap-10 sm:px-12.5 px-5 xl:px-20 w-full">
       <H_Tags>
@@ -26,7 +30,9 @@ export function Last_section() {
           <p className="md:text-3xl sm:text-2xl w-[240px] md:leading-12 font-optima font-bold md:w-[500px]  xl:w-[604px]">
             Overtime i have been able to mentor both Newbies and already
             experienced designers. I achieved this in {""}
-            <span className="text-codar">Codar Tech.</span>
+            <span onClick={redirect} className="text-codar">
+              Codar Tech.
+            </span>
           </p>
         </div>
 

@@ -68,7 +68,7 @@ export default function Header() {
               <li onClick={redirect}>Resume</li>
             </ul>
             <Button
-              to="/hire_me"
+              HandleClick={redirectWhatsapp}
               style="hover:border hover:border-salem hover:text-salem hover:bg-white"
             >
               Hire Me

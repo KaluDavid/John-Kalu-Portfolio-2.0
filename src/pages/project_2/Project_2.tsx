@@ -39,7 +39,7 @@ function Project_2() {
         />
         <Hr />{" "}
         <Last_section_Flex text1="What we do:">
-          <ul>
+          <ul className="font-medium">
             <li>Memberships & Designations</li>
             <li>Employment Programs</li>
             <li>HR Services</li>

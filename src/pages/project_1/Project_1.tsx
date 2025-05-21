@@ -11,7 +11,7 @@ function Project_1() {
       <div className="flex items-center flex-col  gap-20">
         <H_Tags
           style="xl:w-[80%] sm:text-center"
-          text="We make Farm2Market Agro-Logistics Efficient, Predictable and Affordable"
+          text="We make Farm2Market Agro-Logistics Efficient, Predictable and Affordable"
         />
 
         <Live_Project_Temp
@@ -33,7 +33,7 @@ function Project_1() {
         />
         <Hr />{" "}
         <Last_section_Flex text1="Why Viscio:">
-          <ul>
+          <ul className="font-medium">
             <li>
               With 1780+ successful trips, we ensure your agricultural products
               reach their destination safely and on time.
@@ -50,7 +50,7 @@ function Project_1() {
         </Last_section_Flex>
         <Hr />{" "}
         <Last_section_Flex text1="What we do:">
-          <ul>
+          <ul className="font-medium">
             <li>We Minimize Empty Miles for general cargo logistics</li>
             <li>Re-engineer Food Security by reducing Agro-logistics costs</li>
             <li>

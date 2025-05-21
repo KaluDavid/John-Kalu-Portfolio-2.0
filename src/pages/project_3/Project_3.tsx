@@ -47,7 +47,7 @@ function Project_3() {
         />
         <Hr />{" "}
         <Last_section_Flex text1="Why Silicash:">
-          <ul>
+          <ul className="font-medium">
             <li>Instant bank transfers via your virtual account</li>
             <li>Employment Programs</li>
             <li>Create and use Naira & USD virtual cards</li>
@@ -60,7 +60,7 @@ function Project_3() {
         </Last_section_Flex>{" "}
         <Hr />{" "}
         <Last_section_Flex text1="What we do:">
-          <ul>
+          <ul className="font-medium">
             <li>
               To empower people with simple, secure, and accessible digital
               payment solutions that improve lives and create opportunities.{" "}

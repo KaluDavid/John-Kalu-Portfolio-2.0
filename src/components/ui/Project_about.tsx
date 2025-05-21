@@ -20,7 +20,7 @@ export function Project_about({
       <div className="flex flex-col items-start  justify-center gap-20 w-full">
         <div className="flex items-start gap-5 flex-col">
           <Optima text={heading1} style="text-5xl" />
-          <Optima text={heading2} style="text-xl" />
+          <Optima text={heading2} style="text-xl font-semi-bold" />
         </div>
         <Hr />
         <div className="gap-[56px] w-full flex flex-col items-start justify-center *:flex *:items-start *:justify-between  ">

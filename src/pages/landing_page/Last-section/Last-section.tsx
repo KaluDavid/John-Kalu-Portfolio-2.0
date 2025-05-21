@@ -22,12 +22,12 @@ export function Last_section() {
           text2="4+ years of working with Dynamic Teams and as a Freelancer to transform ideas into great Products"
         />
         <Hr />
-        <div className="w-full flex items-start justify-between gap-8 ">
+        <div className="w-full sm:flex-row flex-col max-sm:gap-5  flex items-start justify-between gap-8 ">
           <Optima
             text="75+ Mentees across Africa"
-            style="text-xl md:leading-12 lg:text-nowrap"
+            style="text-2xl md:leading-12 lg:text-nowrap"
           />
-          <p className="md:text-3xl sm:text-2xl w-[240px] md:leading-12 font-optima font-bold md:w-[500px]  xl:w-[604px]">
+          <p className="md:text-3xl sm:text-2xl md:leading-12 font-optima font-bold md:w-[500px]  xl:w-[604px] text-xl max-sm:font-medium ">
             Overtime i have been able to mentor both Newbies and already
             experienced designers. I achieved this in {""}
             <span onClick={redirect} className="text-codar">

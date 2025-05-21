@@ -8,7 +8,7 @@ function About_Page() {
   return (
     <section
       ref={scrollToTop}
-      className="flex xl:px-20 sm:px-12.5 px-5 flex-col items-start pt-40  size-full "
+      className="flex xl:px-20 sm:px-12.5 px-5 flex-col items-start md:pt-40 pt-30   size-full "
     >
       <Hero />
       <Resume />

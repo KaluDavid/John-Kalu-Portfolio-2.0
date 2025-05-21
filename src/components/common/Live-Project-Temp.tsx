@@ -2,6 +2,7 @@ import { type ReactNode } from "react";
 import { Optima } from "./Optima";
 import { Roles } from "./Roles";
 import { Link } from "react-router-dom";
+import useWindowWidth from "../../hooks/use-window-width";
 
 export default function Live_Project_Temp({
   img,
@@ -20,6 +21,7 @@ export default function Live_Project_Temp({
   to?: string;
   roleStyle?: string;
 }) {
+  const { windowWidth } = useWindowWidth();
   return (
     <div className=" flex flex-col items-center justify-center gap-6">
       <Link to={`${to}`}>
@@ -32,12 +34,24 @@ export default function Live_Project_Temp({
         </fieldset>
       </Link>
 
-      <div className=" flex items-start justify-between lg:gap-[200px] gap-20.5  ">
-        <Optima text={text} style=" sm:text-xl text-xx lg:text-3xxl" />
-        <Roles styles={`max-sm:text-xxs  max-sm:gap-3 ${roleStyle}`}>
-          <span className="rounded-full bg-gray-800 size-2.5"></span>
-          <span>{role}</span>
-        </Roles>
+      <div className=" flex sm:flex-row flex-col sm:items-start items-end  justify-between lg:gap-[200px] sm:gap-20.5 gap-5 ">
+        {windowWidth > 500 ? (
+          <>
+            <Optima text={text} style=" sm:text-xl text-xx lg:text-3xxl" />
+            <Roles styles={`max-sm:text-xxs  max-sm:gap-3 ${roleStyle}`}>
+              <span className="rounded-full bg-gray-800 size-2.5"></span>
+              <span>{role}</span>
+            </Roles>
+          </>
+        ) : (
+          <>
+            <Roles styles={` gap-3 ${roleStyle}`}>
+              <span className="rounded-full bg-gray-800 size-2.5"></span>
+              <span>{role}</span>
+            </Roles>
+            <Optima text={text} style=" text-xl font-medium" />
+          </>
+        )}
       </div>
     </div>
   );

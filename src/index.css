@@ -27,6 +27,7 @@
   --text-5xxl: 56px;
 
   /* BreakPoint */
+  --breakpoint-xl-sm: 360px;
   --breakpoint-sm-sm: 375px;
   --breakpoint-mid-sm: 400px;
   --breakpoint-sm-lg: 425px;

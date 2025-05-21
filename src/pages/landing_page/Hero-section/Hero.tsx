@@ -5,7 +5,7 @@ import { Message } from "../../../components/ui/Message";
 export default function Hero() {
   return (
     <div className="flex sm:px-12.5 px-5 lg:px-20 pb-20 lg:pb-35 flex-col items-start justify-center  gap-5 w-full">
-      <Roles styles="max-sm:text-sm max-sm:gap-2 max-sm:[&_small]:size-1.5 max-sm-sm:text-wrap">
+      <Roles styles="max-sm:text-xx max-sm:gap-2.5 max-sm:[&_small]:size-1.5 max-sm-sm:text-wrap ">
         <span>Ui/Ux Designer</span>
         <small className="rounded-full bg-gray-800 size-2.5"></small>
         <span>Design Instructor</span>
@@ -21,7 +21,7 @@ export default function Hero() {
       <Message>
         <a
           href="mailto:Mrkalujohn@gmail.com"
-          className="flex items-center gap-2"
+          className="flex items-center gap-2 text-lg"
           target="_blank"
         >
           Send me an Email <img src="/images/gmail.svg" alt="gmail" />

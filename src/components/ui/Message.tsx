@@ -15,7 +15,7 @@ export function Message({ children }: { children: React.ReactNode }) {
         Message me on Whatsapp <img src="/images/whatsapp.svg" alt="whatsapp" />
       </Button>
       <div className="flex items-center gap-4.5">
-        <span className="rounded-full bg-salem size-2.5"></span>
+        <span className="rounded-full bg-salem size-2.5 "></span>
         {children}
       </div>
     </div>

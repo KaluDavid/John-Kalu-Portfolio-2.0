@@ -1,5 +1,4 @@
-import React, { type ReactNode } from "react";
-
+import { type ReactNode } from "react";
 export function H_Tags({
   text,
   children,

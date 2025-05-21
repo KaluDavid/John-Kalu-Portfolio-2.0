@@ -1,4 +1,3 @@
-import React from "react";
 import { H_Tags } from "../../../components/common/H-Tags";
 import { Hr } from "../../../components/common/Hr";
 import Last_section_Flex from "../../../components/common/Last-section-Flex";

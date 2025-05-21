@@ -1,4 +1,3 @@
-import React from "react";
 import { Hero } from "./Hero/Hero";
 import { Resume } from "./Resume/Resume";
 import useBackToTop from "../../hooks/use-back-to-top";

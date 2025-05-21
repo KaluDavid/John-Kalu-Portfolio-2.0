@@ -1,4 +1,3 @@
-import React from "react";
 import { Suspense } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Lazy from "./utils/Lazy";

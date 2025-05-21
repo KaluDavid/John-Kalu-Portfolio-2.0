@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "../../components/ui/Carousel";
 import Hero from "./Hero-section/Hero";
 import Live_Projects from "./Live-Project/Live-Projects";

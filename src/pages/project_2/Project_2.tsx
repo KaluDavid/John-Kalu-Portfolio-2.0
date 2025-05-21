@@ -1,6 +1,4 @@
-import React from "react";
 import Live_Project_Temp from "../../components/common/Live-Project-Temp";
-import viscio from "/images/viscio.png";
 import { H_Tags } from "../../components/common/H-Tags";
 import { Hr } from "../../components/common/Hr";
 import { Project_about } from "../../components/ui/Project_about";

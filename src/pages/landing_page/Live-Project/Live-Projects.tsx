@@ -1,4 +1,3 @@
-import React from "react";
 import { Live } from "../../../components/common/Live";
 import Live_Project_Temp from "../../../components/common/Live-Project-Temp";
 import viscio from "/images/viscio.png";

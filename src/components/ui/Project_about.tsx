@@ -1,7 +1,6 @@
-import React, { use } from "react";
+import React from "react";
 import { Optima } from "../common/Optima";
 import { Hr } from "../common/Hr";
-import { redirect } from "react-router-dom";
 import useRedirect from "../../hooks/use-redirect";
 
 export function Project_about({

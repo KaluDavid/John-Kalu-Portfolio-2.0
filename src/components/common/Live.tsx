@@ -1,5 +1,3 @@
-import React from "react";
-
 export function Live({ text, style }: { text: string; style?: string }) {
   return (
     <>

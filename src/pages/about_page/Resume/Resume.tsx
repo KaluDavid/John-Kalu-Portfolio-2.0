@@ -1,4 +1,3 @@
-import React from "react";
 import { Optima } from "../../../components/common/Optima";
 import { Resume_list } from "../../../components/common/Resume_list";
 import { Hr } from "../../../components/common/Hr";

@@ -53,7 +53,7 @@ Key priorities during development:
 
 ---
 
-###LIVE LINK - [click Me](https://john-kalu.vercel.app/)
+### LIVE LINK - [Click Me](https://john-kalu.vercel.app/)
 #### 📜 License
 This project is not open source.
 All rights reserved to John Kalu.

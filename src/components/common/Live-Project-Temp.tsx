@@ -24,7 +24,7 @@ export default function Live_Project_Temp({
   const { windowWidth } = useWindowWidth();
   return (
     <div className=" flex flex-col items-center justify-center gap-6">
-      <Link to={to}>
+      <Link to={`${to}`}>
         <fieldset
           className={`flex items-center justify-center bg-buttercream rounded-2xl px-8 py-5 sm:p-12 ${style}`}
         >

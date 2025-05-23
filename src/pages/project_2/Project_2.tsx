@@ -30,7 +30,7 @@ function Project_2() {
       <Project_about
         heading1="Eco Academy"
         heading2="We champion the end-to-end career of an environmental professional. "
-        redirectApp="https://www.eco.ca/"
+        redirectApp="https://ecoacademy.ca/"
       >
         <Last_section_Flex
           text1="About Eco Academy:"

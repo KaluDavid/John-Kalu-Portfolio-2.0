@@ -10,10 +10,12 @@ export function Hero() {
           <span>ABOUT ME</span>
           <span className="rounded-full bg-gray-800 size-2.5"></span>
         </Roles>
-        <H_Tags style="sm:w-[90%]">
+        <H_Tags style="xl:w-[90%]">
           <span>
-            I craft products that not only meet organizational objectives but
-            also <br /> deliver exceptional user experiences."
+            I craft <span className="text-pantone-green"> products </span> that
+            not only meet organizational objectives but also{" "}
+            <br className="xl:block hidden" /> deliver exceptional user
+            experiences."
           </span>
         </H_Tags>
         <Message>
@@ -25,13 +27,13 @@ export function Hero() {
           </a>
         </Message>
       </div>
-      <fieldset className="flex xl:flex-row flex-col   justify-between w-full  items-center">
+      {/* <fieldset className="flex xl:flex-row flex-col   justify-between w-full  items-center">
         <img
           src="/images/profile.png"
           alt="john kalu"
           className="xl:min-w-[464px]"
         />
-      </fieldset>
+      </fieldset> */}
     </div>
   );
 }

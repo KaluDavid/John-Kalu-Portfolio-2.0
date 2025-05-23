@@ -6,7 +6,7 @@ This is a responsive personal portfolio website developed for [**John Kalu**](ht
 
 ## 🛠 Built By
 
-**Developer:** thedavidKalu  
+**Developer:** Kalu David
 Frontend Developer | UI Specialist
 📧 mrkaludavid@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/kalu-david-a2771723a/)

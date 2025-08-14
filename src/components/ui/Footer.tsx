@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useRedirect from "../../hooks/use-redirect";
 import { Optima } from "../common/Optima";
 import { ImArrowUpRight2 } from "react-icons/im";
@@ -15,10 +16,11 @@ export default function Footer() {
             text="Turn that Idea into a Great Product"
             style="lg:text-2xl sm:text-xl text-lg "
           />
-          <a
-            href="mailto:Mrkalujohn@gmail.com"
+          <Link
+            to="mailto:Mrkalujohn@gmail.com"
             className="flex items-center gap-2 sm-lg:gap-6 "
             target="_blank"
+            rel="noopener noreferrer"
           >
             <Optima
               text="Mrkalujohn@gmail.com"
@@ -27,7 +29,7 @@ export default function Footer() {
             <span className="lg:text-3xl sm-lg:text-xl sm:text-2xl rounded-full bg-codar text-white sm:p-[10px] p-2 ">
               <ImArrowUpRight2 />
             </span>
-          </a>
+          </Link>
         </div>
 
         <div className="lg:px-[150px] sm:flex-row flex-col  tabS7:px-20 max-lg:w-full  md:gap-16 sm:gap-6 py-4 sm:py-[30px]  bg-gray-800 max-sm:px-42 sm:rounded-full rounded-[90px] flex items-center lg:justify-between justify-center text-white ">

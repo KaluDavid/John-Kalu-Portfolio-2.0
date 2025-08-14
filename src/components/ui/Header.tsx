@@ -30,11 +30,9 @@ export default function Header() {
   // redirect link
   const redirect = useRedirect({
     redirectLink:
-      "https://drive.google.com/file/d/13-mBbmTJj8tned1SXeIod9rnCNqk-s1D/view?usp=sharing",
+      "https://drive.google.com/file/d/1Y6bYmeVanfLYDc1EZ-bdcR-S-q2k0F94/view?usp=sharing",
   });
-  const redirectWhatsapp = useRedirect({
-    redirectLink: "https://wa.link/276pe5",
-  });
+
   return (
     <>
       <motion.header
@@ -65,10 +63,12 @@ export default function Header() {
                 <li>About</li>
               </NavLink>
 
-              <li onClick={redirect}>Resume</li>
+              <li onClick={redirect} className="cursor-pointer">
+                Resume
+              </li>
             </ul>
             <Button
-              HandleClick={redirectWhatsapp}
+              to="https://wa.link/276pe5"
               style="hover:border hover:border-salem hover:text-salem hover:bg-white"
             >
               Hire Me
@@ -116,7 +116,7 @@ export default function Header() {
             </NavLink>
             <li onClick={redirect}>Resume</li>
           </ul>
-          <Button HandleClick={redirectWhatsapp} style="max-sm:w-full">
+          <Button to="https://wa.link/276pe5" style="max-sm:w-full">
             Hire Me
           </Button>
         </div>
